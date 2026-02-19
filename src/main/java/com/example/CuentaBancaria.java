@@ -14,14 +14,6 @@ public class CuentaBancaria {
 
     }
 
-    public static void main(String[] args) {
-        CuentaBancaria cuenta = new CuentaBancaria("Maria", 500);
-        cuenta.depositar(200);
-        System.out.println(cuenta.getSaldo()); 
-        cuenta.retirar(1000); 
-    }
-
-
     public String getTitular() {
         return titular;
     }

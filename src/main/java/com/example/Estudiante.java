@@ -17,14 +17,6 @@ public class Estudiante {
     }
 
 
-    public static void main(String[] args) {
-        Estudiante e1 = new Estudiante("Pedro", 21, 2.5);
-        e1.mostrarInfo();
-
-        Estudiante e2 = new Estudiante("Ana", 22, 3.8);
-        e2.mostrarInfo();
-    }
-
     public String getNombre() {
         return nombre;
     }
